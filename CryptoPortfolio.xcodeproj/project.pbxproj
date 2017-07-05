@@ -13,6 +13,10 @@
 		7AF7F1EC1F0C5BEC0055F305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF7F1EB1F0C5BEC0055F305 /* Assets.xcassets */; };
 		7AF7F1EF1F0C5BEC0055F305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF7F1ED1F0C5BEC0055F305 /* LaunchScreen.storyboard */; };
 		7AF7F1FA1F0C5BEC0055F305 /* CryptoPortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7F1F91F0C5BEC0055F305 /* CryptoPortfolioTests.swift */; };
+		7AF7F2071F0C5C820055F305 /* UIColor+HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7F2061F0C5C820055F305 /* UIColor+HexColors.swift */; };
+		7AF7F20B1F0C5D000055F305 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7F20A1F0C5D000055F305 /* Font.swift */; };
+		7AF7F20F1F0C5D3D0055F305 /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7F20E1F0C5D3D0055F305 /* ColorScheme.swift */; };
+		7AF7F2131F0C601D0055F305 /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7F2121F0C601D0055F305 /* ErrorHandling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		7AF7F1F51F0C5BEC0055F305 /* CryptoPortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoPortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF7F1F91F0C5BEC0055F305 /* CryptoPortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPortfolioTests.swift; sourceTree = "<group>"; };
 		7AF7F1FB1F0C5BEC0055F305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF7F2061F0C5C820055F305 /* UIColor+HexColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexColors.swift"; sourceTree = "<group>"; };
+		7AF7F20A1F0C5D000055F305 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		7AF7F20E1F0C5D3D0055F305 /* ColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
+		7AF7F2121F0C601D0055F305 /* ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				7AF7F1E41F0C5BEC0055F305 /* AppDelegate.swift */,
+				7AF7F2061F0C5C820055F305 /* UIColor+HexColors.swift */,
+				7AF7F20A1F0C5D000055F305 /* Font.swift */,
+				7AF7F20E1F0C5D3D0055F305 /* ColorScheme.swift */,
+				7AF7F2121F0C601D0055F305 /* ErrorHandling.swift */,
 				7AF7F1E61F0C5BEC0055F305 /* ViewController.swift */,
 				7AF7F1E81F0C5BEC0055F305 /* Main.storyboard */,
 				7AF7F1EB1F0C5BEC0055F305 /* Assets.xcassets */,
@@ -197,6 +209,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AF7F20B1F0C5D000055F305 /* Font.swift in Sources */,
+				7AF7F20F1F0C5D3D0055F305 /* ColorScheme.swift in Sources */,
+				7AF7F2071F0C5C820055F305 /* UIColor+HexColors.swift in Sources */,
+				7AF7F2131F0C601D0055F305 /* ErrorHandling.swift in Sources */,
 				7AF7F1E71F0C5BEC0055F305 /* ViewController.swift in Sources */,
 				7AF7F1E51F0C5BEC0055F305 /* AppDelegate.swift in Sources */,
 			);
