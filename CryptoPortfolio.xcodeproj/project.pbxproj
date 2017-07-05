@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7AB571CF1F0CB080005DE2EE /* CryptoCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB571CE1F0CB080005DE2EE /* CryptoCoin.swift */; };
 		7AF7F1E51F0C5BEC0055F305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7F1E41F0C5BEC0055F305 /* AppDelegate.swift */; };
 		7AF7F1E71F0C5BEC0055F305 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7F1E61F0C5BEC0055F305 /* ViewController.swift */; };
 		7AF7F1EA1F0C5BEC0055F305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF7F1E81F0C5BEC0055F305 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7AB571CE1F0CB080005DE2EE /* CryptoCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoin.swift; sourceTree = "<group>"; };
 		7AF7F1E11F0C5BEC0055F305 /* CryptoPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF7F1E41F0C5BEC0055F305 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AF7F1E61F0C5BEC0055F305 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				7AF7F20A1F0C5D000055F305 /* Font.swift */,
 				7AF7F20E1F0C5D3D0055F305 /* ColorScheme.swift */,
 				7AF7F2121F0C601D0055F305 /* ErrorHandling.swift */,
+				7AB571CE1F0CB080005DE2EE /* CryptoCoin.swift */,
 				7AF7F1E61F0C5BEC0055F305 /* ViewController.swift */,
 				7AF7F1E81F0C5BEC0055F305 /* Main.storyboard */,
 				7AF7F1EB1F0C5BEC0055F305 /* Assets.xcassets */,
@@ -212,6 +215,7 @@
 				7AF7F20B1F0C5D000055F305 /* Font.swift in Sources */,
 				7AF7F20F1F0C5D3D0055F305 /* ColorScheme.swift in Sources */,
 				7AF7F2071F0C5C820055F305 /* UIColor+HexColors.swift in Sources */,
+				7AB571CF1F0CB080005DE2EE /* CryptoCoin.swift in Sources */,
 				7AF7F2131F0C601D0055F305 /* ErrorHandling.swift in Sources */,
 				7AF7F1E71F0C5BEC0055F305 /* ViewController.swift in Sources */,
 				7AF7F1E51F0C5BEC0055F305 /* AppDelegate.swift in Sources */,
@@ -365,6 +369,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KG5698275Z;
 				INFOPLIST_FILE = CryptoPortfolio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisjkong.CryptoPortfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -379,6 +384,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KG5698275Z;
 				INFOPLIST_FILE = CryptoPortfolio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisjkong.CryptoPortfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,6 +444,7 @@
 				7AF7F2001F0C5BEC0055F305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AF7F2011F0C5BEC0055F305 /* Build configuration list for PBXNativeTarget "CryptoPortfolioTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +453,7 @@
 				7AF7F2031F0C5BEC0055F305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

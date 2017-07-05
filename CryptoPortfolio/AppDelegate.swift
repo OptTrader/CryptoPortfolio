@@ -30,5 +30,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 //  https://coinmarketcap.com/api/
-//  https://api.coinmarketcap.com/v1/ticker/?convert=USD
+//  
 
