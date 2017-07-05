@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A8CDD691F0D8EDB00E0DCD7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8CDD681F0D8EDB00E0DCD7 /* NetworkManager.swift */; };
+		7A8CDD6B1F0D8F1800E0DCD7 /* CryptoMarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8CDD6A1F0D8F1800E0DCD7 /* CryptoMarketViewController.swift */; };
+		7A8CDD6D1F0D8F7800E0DCD7 /* CoinMarketCapApiClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8CDD6C1F0D8F7800E0DCD7 /* CoinMarketCapApiClientProtocol.swift */; };
+		7A8CDD6F1F0D903D00E0DCD7 /* UrlEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8CDD6E1F0D903D00E0DCD7 /* UrlEndpoints.swift */; };
+		7A8CDD721F0D96AC00E0DCD7 /* CryptoCoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8CDD701F0D96AC00E0DCD7 /* CryptoCoinCell.swift */; };
+		7A8CDD731F0D96AC00E0DCD7 /* CryptoCoinCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A8CDD711F0D96AC00E0DCD7 /* CryptoCoinCell.xib */; };
+		7A8CDD751F0D983A00E0DCD7 /* CryptoCoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8CDD741F0D983A00E0DCD7 /* CryptoCoinViewModel.swift */; };
 		7AB571CF1F0CB080005DE2EE /* CryptoCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB571CE1F0CB080005DE2EE /* CryptoCoin.swift */; };
 		7AF7F1E51F0C5BEC0055F305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7F1E41F0C5BEC0055F305 /* AppDelegate.swift */; };
-		7AF7F1E71F0C5BEC0055F305 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7F1E61F0C5BEC0055F305 /* ViewController.swift */; };
 		7AF7F1EA1F0C5BEC0055F305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF7F1E81F0C5BEC0055F305 /* Main.storyboard */; };
 		7AF7F1EC1F0C5BEC0055F305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF7F1EB1F0C5BEC0055F305 /* Assets.xcassets */; };
 		7AF7F1EF1F0C5BEC0055F305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF7F1ED1F0C5BEC0055F305 /* LaunchScreen.storyboard */; };
@@ -31,10 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A8CDD681F0D8EDB00E0DCD7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7A8CDD6A1F0D8F1800E0DCD7 /* CryptoMarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoMarketViewController.swift; sourceTree = "<group>"; };
+		7A8CDD6C1F0D8F7800E0DCD7 /* CoinMarketCapApiClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarketCapApiClientProtocol.swift; sourceTree = "<group>"; };
+		7A8CDD6E1F0D903D00E0DCD7 /* UrlEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlEndpoints.swift; sourceTree = "<group>"; };
+		7A8CDD701F0D96AC00E0DCD7 /* CryptoCoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoinCell.swift; sourceTree = "<group>"; };
+		7A8CDD711F0D96AC00E0DCD7 /* CryptoCoinCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CryptoCoinCell.xib; sourceTree = "<group>"; };
+		7A8CDD741F0D983A00E0DCD7 /* CryptoCoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoinViewModel.swift; sourceTree = "<group>"; };
 		7AB571CE1F0CB080005DE2EE /* CryptoCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoin.swift; sourceTree = "<group>"; };
 		7AF7F1E11F0C5BEC0055F305 /* CryptoPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF7F1E41F0C5BEC0055F305 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7AF7F1E61F0C5BEC0055F305 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7AF7F1E91F0C5BEC0055F305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AF7F1EB1F0C5BEC0055F305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AF7F1EE1F0C5BEC0055F305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -91,9 +103,15 @@
 				7AF7F2061F0C5C820055F305 /* UIColor+HexColors.swift */,
 				7AF7F20A1F0C5D000055F305 /* Font.swift */,
 				7AF7F20E1F0C5D3D0055F305 /* ColorScheme.swift */,
+				7A8CDD6C1F0D8F7800E0DCD7 /* CoinMarketCapApiClientProtocol.swift */,
 				7AF7F2121F0C601D0055F305 /* ErrorHandling.swift */,
 				7AB571CE1F0CB080005DE2EE /* CryptoCoin.swift */,
-				7AF7F1E61F0C5BEC0055F305 /* ViewController.swift */,
+				7A8CDD681F0D8EDB00E0DCD7 /* NetworkManager.swift */,
+				7A8CDD6E1F0D903D00E0DCD7 /* UrlEndpoints.swift */,
+				7A8CDD6A1F0D8F1800E0DCD7 /* CryptoMarketViewController.swift */,
+				7A8CDD701F0D96AC00E0DCD7 /* CryptoCoinCell.swift */,
+				7A8CDD711F0D96AC00E0DCD7 /* CryptoCoinCell.xib */,
+				7A8CDD741F0D983A00E0DCD7 /* CryptoCoinViewModel.swift */,
 				7AF7F1E81F0C5BEC0055F305 /* Main.storyboard */,
 				7AF7F1EB1F0C5BEC0055F305 /* Assets.xcassets */,
 				7AF7F1ED1F0C5BEC0055F305 /* LaunchScreen.storyboard */,
@@ -193,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AF7F1EF1F0C5BEC0055F305 /* LaunchScreen.storyboard in Resources */,
+				7A8CDD731F0D96AC00E0DCD7 /* CryptoCoinCell.xib in Resources */,
 				7AF7F1EC1F0C5BEC0055F305 /* Assets.xcassets in Resources */,
 				7AF7F1EA1F0C5BEC0055F305 /* Main.storyboard in Resources */,
 			);
@@ -214,10 +233,15 @@
 			files = (
 				7AF7F20B1F0C5D000055F305 /* Font.swift in Sources */,
 				7AF7F20F1F0C5D3D0055F305 /* ColorScheme.swift in Sources */,
+				7A8CDD751F0D983A00E0DCD7 /* CryptoCoinViewModel.swift in Sources */,
+				7A8CDD6F1F0D903D00E0DCD7 /* UrlEndpoints.swift in Sources */,
+				7A8CDD721F0D96AC00E0DCD7 /* CryptoCoinCell.swift in Sources */,
 				7AF7F2071F0C5C820055F305 /* UIColor+HexColors.swift in Sources */,
 				7AB571CF1F0CB080005DE2EE /* CryptoCoin.swift in Sources */,
+				7A8CDD691F0D8EDB00E0DCD7 /* NetworkManager.swift in Sources */,
 				7AF7F2131F0C601D0055F305 /* ErrorHandling.swift in Sources */,
-				7AF7F1E71F0C5BEC0055F305 /* ViewController.swift in Sources */,
+				7A8CDD6D1F0D8F7800E0DCD7 /* CoinMarketCapApiClientProtocol.swift in Sources */,
+				7A8CDD6B1F0D8F1800E0DCD7 /* CryptoMarketViewController.swift in Sources */,
 				7AF7F1E51F0C5BEC0055F305 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

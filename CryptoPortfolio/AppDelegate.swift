@@ -30,5 +30,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 //  https://coinmarketcap.com/api/
-//  
 
