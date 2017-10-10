@@ -21,13 +21,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func applyStyles() {
         let navigationBar = UINavigationBar.appearance()
         // to check
-        navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor.rawValue: ColorScheme.navigationBarForegroundColor,
-                                             NSAttributedStringKey.font.rawValue: Font.navigationBar]
+        navigationBar.titleTextAttributes = [NSAttributedStringKey(rawValue: NSAttributedStringKey.foregroundColor.rawValue): ColorScheme.navigationBarForegroundColor,
+                                             NSAttributedStringKey(rawValue: NSAttributedStringKey.font.rawValue): Font.navigationBar]
         navigationBar.tintColor = ColorScheme.navigationBarForegroundColor
         navigationBar.barTintColor = ColorScheme.navigationBarBackgroundColor
     }
     
 }
-
-//  https://coinmarketcap.com/api/
-

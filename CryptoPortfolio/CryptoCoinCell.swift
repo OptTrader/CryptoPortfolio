@@ -36,33 +36,3 @@ class CryptoCoinCell: UITableViewCell {
     }
     
 }
-
-//static var nib:UINib {
-//    return UINib(nibName: identifier, bundle: nil)
-//}
-//
-//static var identifier: String {
-//    return String(describing: self)
-//}
-//
-//override func awakeFromNib() {
-//    super.awakeFromNib()
-//
-//    pictureImageView?.layer.cornerRadius = 40
-//    pictureImageView?.clipsToBounds = true
-//    pictureImageView?.contentMode = .scaleAspectFit
-//    pictureImageView?.backgroundColor = UIColor.lightGray
-//}
-//
-//override func setSelected(_ selected: Bool, animated: Bool) {
-//    super.setSelected(selected, animated: animated)
-//
-//    // Configure the view for the selected state
-//}
-//
-//override func prepareForReuse() {
-//    super.prepareForReuse()
-//
-//    pictureImageView?.image = nil
-//}
-
